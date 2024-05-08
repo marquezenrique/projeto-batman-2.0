@@ -1,0 +1,26 @@
+@import url("https://fonts.googleapis.com/css2?family=Kdam+Thmor+Pro&display=swap");
+
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer base {
+  * {
+    font-family: "Kdam Thmor Pro", sans-serif;
+  }
+  html {
+    overflow-x: hidden;
+  }
+  textarea::-webkit-scrollbar {
+    cursor: pointer;
+    width: 10px;
+    background: rgba(240, 248, 255, 0);
+    border-radius: 20px;
+  }
+
+  textarea::-webkit-scrollbar-thumb {
+    background-color: #d21616;
+    border-radius: 20px;
+    border: 2px #d21616;
+  }
+}
